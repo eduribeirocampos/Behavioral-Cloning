@@ -32,8 +32,6 @@ The goals / steps of this project are the following, more details see the [rubri
 
 The simulator used was provided by Udacity and it is available in project workspace. 
 
-![alt text][image1]
-
 To accomplish the goals of the project it is necessary train and simulate the car driving autonomously only in the track 1 (the left one).
 
 The strategy to getting data was offered in the project session by Udacity as a proposal. Below it is possible see in the schematic picture the 4 laps performed and the objective for each lap.
@@ -90,9 +88,5 @@ Loss Function Used- MSE(Mean Squared Error as it is efficient for regression pro
 
 To simulate the algorithm result and see the car driving autonomously. it was used the script files available on the workspace and provided by Udacity. In the linux bash was inserted the command `python drive.py model.h5 run1` as first step and to converted the images generated in the run1 folder, was applied a second command  `python video.py run1`. <br/> see below the result !!!
 
-<br/> 
 
-<video controls src="./video.mp4"/>
-
-
-https://youtu.be/-1MkRQP87yQ
+[![alt text][image1]](https://youtu.be/-1MkRQP87yQ)
